@@ -46,6 +46,16 @@ section {
   float: center;
 }
 
+.left-align {
+  padding-left: 5%;
+  text-align: left;
+}
+
+.center-align {
+  padding-left: 5%;
+  text-align: center;
+}
+
 h1 {
   padding-left: 5%;
   padding-top: 30px;
