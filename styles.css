@@ -1,7 +1,8 @@
 body {
-  background-color: #FFEBCD;
+  background-color: #ffebcd;
   font-family: "Roboto", "Open Sans", sans-serif;
   margin: 0;
+  padding-right: 10px;
 }
 
 ul.topnav {
@@ -12,7 +13,9 @@ ul.topnav {
   background-color: #333;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -22,28 +25,27 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
 
-ul.topnav li a.active {background-color: #d1772a;}
+ul.topnav li a.active {
+  background-color: #d1772a;
+}
 
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+ul.topnav li.right {
+  float: right;
 }
 
 aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
 }
 
 section {
   padding-left: 5%;
-  float: center;
 }
 
 .left-align {
@@ -88,4 +90,29 @@ img.image-icon:hover {
   width: 34px;
   height: 34px;
   padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: none;
+  }
+  img.experiences {
+    width: 80%;
+  }
+  div.experiences {
+    padding-left: 10%;
+    width: 80%;
+    aspect-ratio: 16/9;
+  }
+  iframe.experiences {
+    width: 100%;
+    height: 100%;
+  }
 }

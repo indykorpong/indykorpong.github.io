@@ -1,92 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="styles.css">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-        </style>
-        <title>Experiences</title>
-    </head>
-    <body>
-        <ul class="topnav">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="experiences.html">Experiences</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+    </style>
+    <title>Experiences</title>
+  </head>
+  <body>
+    <ul class="topnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="experiences.html">Experiences</a></li>
+    </ul>
+    <h1>Experiences</h1>
+    <section class="center-align">
+      <div>
+        <h2>Zecha Tactics</h2>
+        <img class="experiences" src="images/zecha-tactics.jpg" width="560" />
+        <br />
+        <div class="experiences">
+          <iframe
+            class="experiences"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qXrT9kjvhIM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <ul class="left-align">
+          <li>
+            Zecha Tactics is a tactical strategy turn-based game with mech
+            (Gundam-like robots) characters.
+          </li>
+          <li>
+            Implemented a level editor which allows the user to manipulate or
+            edit the mesh of level’s terrain by pulling faces, edges, or
+            vertices of the mesh, and extruding faces of the mesh.
+          </li>
+          <li>
+            Integrated animations into the gameplay logic, also created a tool
+            that automates the animation importing.
+          </li>
+          <li>
+            More Info:
+            <a href="https://twitter.com/zechatactics">Twitter Zecha Tactics</a>
+          </li>
         </ul>
-        <h1>Experiences</h1>
-        <section class="center-align">
-            <p>
-                <h2>Zecha Tactics</h2>
-                <img src="images/zecha-tactics.jpg" width="560">
-                <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qXrT9kjvhIM" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-                <ul class="left-align">
-                    <li>Zecha Tactics is a tactical strategy turn-based game with mech (Gundam-like robots) characters.</li>
-                    <li>Implemented a level editor which allows the user to manipulate or edit the mesh of level’s terrain by pulling faces, edges, or vertices of the mesh, and extruding faces of the mesh.</li>
-                    <li>Integrated animations into the gameplay logic, also created a tool that automates the animation importing.</li>
-                    <li>More Info: <a href="https://twitter.com/zechatactics">Twitter Zecha Tactics</a></li>
-                </ul>
-            </p>
+      </div>
 
-            <p>
-                <h2>Snake AI</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/nfPIMMjzIX4" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-                <ul class="left-align">
-                    <li>Snake AI is a python program which extracts the information from Snake game and controls the snake to eat the apples in the game scene.</li>
-                    <li>
-                        There are two parts in the AI:
-                        <ol>
-                            <li>Image processing part that recognizes the game entities from the screen captures</li>
-                            <li>AI part that performs the pathfinding and controls the snake to the apples</li>
-                        </ol>
-                    </li>
-                </ul>
-            </p>
+      <div>
+        <h2>Snake AI</h2>
+        <div class="experiences">
+          <iframe
+            class="experiences"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/nfPIMMjzIX4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <ul class="left-align">
+          <li>
+            Snake AI is a python program which extracts the information from
+            Snake game and controls the snake to eat the apples in the game
+            scene.
+          </li>
+          <li>
+            There are two parts in the AI:
+            <ol>
+              <li>
+                Image processing part that recognizes the game entities from the
+                screen captures
+              </li>
+              <li>
+                AI part that performs the pathfinding and controls the snake to
+                the apples
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </div>
 
-            <p>
-                <h2>Airship Academy</h2>
-                <img src="images/airship-academy.png" width="560" height="315">
-                <br>
-                <img src="images/airship-island.png" width="560" height="315">
-                <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0W7AvLhbgq0" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-                <ul class="left-align">
-                    <li>Airship Academy is a sandbox ship battle and trading simulation game set in the fantasy sky</li>
-                    <li>Implemented a procedural river generator for the existing in-game procedural island</li>
-                    <li>Implemented a system for finding the optimal path for the airship from one point to another and controlling it to the destination</li>
-                </ul>
-            </p>
+      <div>
+        <h2>Airship Academy</h2>
+        <img class="experiences" src="images/airship-academy.png" width="560" />
+        <br />
+        <img class="experiences" src="images/airship-island.png" width="560" />
+        <br />
+        <div class="experiences">
+          <iframe
+            class="experiences"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0W7AvLhbgq0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <ul class="left-align">
+          <li>
+            Airship Academy is a sandbox ship battle and trading simulation game
+            set in the fantasy sky
+          </li>
+          <li>
+            Implemented a procedural river generator for the existing in-game
+            procedural island
+          </li>
+          <li>
+            Implemented a system for finding the optimal path for the airship
+            from one point to another and controlling it to the destination
+          </li>
+        </ul>
+      </div>
 
-            <p>
-                <h2>Discord Gambling Bot</h2>
-                <img src="images/discord-bot.png" width="560">
-                <br>
-                <ul class="left-align">
-                    <li>Discord gambling bot is my personal project, which is a Discord bot that allows the users to bet and predict the result of certain events, such as Dota 2 match results, and get rewarded as virtual tokens</li>
-                    <li>Implemented python scripts that receive the users’ messages and organize the gambling events</li>
-                </ul>
-            </p>
+      <div>
+        <h2>Discord Gambling Bot</h2>
+        <img class="experiences" src="images/discord-bot.png" width="560" />
+        <br />
+        <ul class="left-align">
+          <li>
+            Discord gambling bot is my personal project, which is a Discord bot
+            that allows the users to bet and predict the result of certain
+            events, such as Dota 2 match results, and get rewarded as virtual
+            tokens
+          </li>
+          <li>
+            Implemented python scripts that receive the users’ messages and
+            organize the gambling events
+          </li>
+        </ul>
+      </div>
 
-            <p>
-                <h2>Slime Slasher: Dungeon of Draw</h2>
-                <img src="images/slime-slasher.png" height="560">
-                <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LHeYqWjfZ8s" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-                <ul class="left-align">
-                    <li>Slime Slasher is a game in which player needs to kill slimes by drawing lines in the same shape as the one appearing above the slime’s head</li>
-                    <li>Implemented the game logic which recognizes shapes of line drawn by the player using grid box and string distance</li>
-                </ul>
-            </p>
-        </section>
-    </body>
+      <div>
+        <h2>Slime Slasher: Dungeon of Draw</h2>
+        <img class="experiences" src="images/slime-slasher.png" height="560" />
+        <br />
+        <div class="experiences">
+          <iframe
+            class="experiences"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LHeYqWjfZ8s"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <ul class="left-align">
+          <li>
+            Slime Slasher is a game in which player needs to kill slimes by
+            drawing lines in the same shape as the one appearing above the
+            slime’s head
+          </li>
+          <li>
+            Implemented the game logic which recognizes shapes of line drawn by
+            the player using grid box and string distance
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
